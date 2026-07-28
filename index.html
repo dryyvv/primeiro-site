@@ -50,6 +50,8 @@ margin: 0 auto;
 
 <hr style="border: 0; border-top: 1px solid #000000; margin: 30px auto; max-width: 90%; opacity: 0.5;">
 
+<div>
+
 <p> Tudo bem, vimos oque foi a ditadura militar, porém quais foram suas principais características?</p>
 
 <p> <h3>1. Falta de Democracia:</h3>
@@ -73,8 +75,8 @@ margin: 0 auto;
     <img src="presidencia.webp" alt="inicio">
 
 <hr style="border: 0; border-top: 1px solid #000000; margin: 30px auto; max-width: 90%; opacity: 0.5;">
-
-
+<button>❤️<span>0</span></button>
+</div>
 
 
 <p> <h3>2. Repressão Estatal:</h3>
@@ -201,7 +203,10 @@ Determinados assuntos eram proibidos, e emissoras podiam sofrer sanções caso d
 
 <script>
 
-
+function botaoClicado() {
+let texto = botao.querySelector("span");
+texto.textContent++;
+}
 
 
 
